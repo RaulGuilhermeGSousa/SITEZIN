@@ -1,0 +1,179 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada {
+    background: rgb(39, 158, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: -20%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(0, 255, 0);
+}
+
+.categoria h2 {
+    color: rgb(0, 56, 129);
+}
+div#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 99999;
+  }
+  .loader-box .title {
+    color: #525866;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .loader-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-50px; 
+    margin-left:-50px;
+  }
+  
+  .demo{
+    width:300px;
+    height:300px;
+    font-size:5em;
+    float:left;
+    text-align:center;
+  }
+  
+  .rainbow-bg{
+      animation: rainbow-bg 2.5s linear;
+      animation-iteration-count: infinite;
+  }
+  
+  .rainbow{
+      animation: rainbow 2.5s linear;
+      animation-iteration-count: infinite;
+  }
+  
+  @keyframes rainbow-bg{
+      100%,0%{
+        background-color: rgb(255,0,0);
+      }
+      8%{
+        background-color: rgb(255,127,0);
+      }
+      16%{
+        background-color: rgb(255,255,0);
+      }
+      25%{
+        background-color: rgb(127,255,0);
+      }
+      33%{
+        background-color: rgb(0,255,0);
+      }
+      41%{
+        background-color: rgb(0,255,127);
+      }
+      50%{
+        background-color: rgb(0,255,255);
+      }
+      58%{
+        background-color: rgb(0,127,255);
+      }
+      66%{
+        background-color: rgb(0,0,255);
+      }
+      75%{
+        background-color: rgb(127,0,255);
+      }
+      83%{
+        background-color: rgb(255,0,255);
+      }
+      91%{
+        background-color: rgb(255,0,127);
+      }
+  }
+  
+  @keyframes rainbow{
+      100%,0%{
+        color: rgb(255,0,0);
+      }
+      8%{
+        color: rgb(255,127,0);
+      }
+      16%{
+        color: rgb(255,255,0);
+      }
+      25%{
+        color: rgb(127,255,0);
+      }
+      33%{
+        color: rgb(0,255,0);
+      }
+      41%{
+        color: rgb(0,255,127);
+      }
+      50%{
+        color: rgb(0,255,255);
+      }
+      58%{
+        color: rgb(0,127,255);
+      }
+      66%{
+        color: rgb(0,0,255);
+      }
+      75%{
+        color: rgb(127,0,255);
+      }
+      83%{
+        color: rgb(255,0,255);
+      }
+      91%{
+        color: rgb(255,0,127);
+      }
+  }
